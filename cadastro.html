@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tecnologia</title>
+    <meta name="Geiziane" content="Geiziane Bezerra" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords"
+        content="Geiziane, Bezerra , Almeida, front-end, front, end, programação, senai, acessorios, cabos, tela,tecnologia, programaçao, computador, bootstrap, resposnivo, nav, navbar, menu, carrosel, carousel" />
+    <meta name="Projeto" content="Projeto Senai" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    <link href="img/icon.png" rel="shortcut icon" type="image/png" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark menu-borda" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/icon2.png" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="mt-5">
+        <div class="container">
+            <h1 class="display-4">Formulário de cadastro</h1>
+
+            <hr />
+            <br>
+            <h3>A Importância do Cadastro para Receber Novidades Tecnológicas</h3>
+            <br>
+            <h4>Caro Cliente, Agradecemos por escolher a Vtec como sua parceira em tecnologia. Valorizamos a sua
+                confiança em nossos produtos e serviços. Preencher nosso formulário de cadastro é um passo importante
+                que nos ajuda a atendê-lo de forma mais personalizada e eficaz. As informações que você nos fornece nos
+                permitem entender suas necessidades, preferências e expectativas. Com isso, podemos "Melhorar a
+                Experiência do Cliente". Ao saber mais sobre você, podemos oferecer produtos e serviços que atendam às
+                suas necessidades específicas.</h4>
+            <br>
+            <hr />
+            <br>
+            <img id="cadastro" src="imagens/cadrasto.png" class="img-fluid">
+            <br>
+            <hr />
+            <form action="" method="">
+                <section class="row mt-5">
+                    <h2>Dados pessoais</h2>
+                    <hr />
+                    <div class="col-md-5 col-12">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu primeiro nome">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-12">
+                        <div class="mb-3">
+                            <label for="sobrenome" class="form-label">Sobrenome</label>
+                            <input type="text" class="form-control" id="sobrenome" placeholder="Seu sobrenome completo">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="usuario@servidor.com">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="mb-3">
+                            <label for="dataNasc" class="form-label">Data de nascimento</label>
+                            <input type="date" class="form-control" id="dataNasc" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="(ddd) 9xxxx-xxxx" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="rg" class="form-label">RG</label>
+                            <input type="text" class="form-control" id="rg" placeholder="Registro Geral" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="cpf" class="form-label">CPF</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="CPF" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="genero" class="form-label">Gênero</label>
+                            <select class="form-select" aria-label="Default select example" id="genero">
+                                <option selected value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="Não desejo informar">Não desejo informar</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <section class="row mt-5">
+                    <h2>Endereço</h2>
+                    <hr />
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="cep" class="form-label">CEP</label>
+                            <input type="text" class="form-control" id="cep" placeholder="xx.xxx-xxx" />
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-12">
+                        <div class="mb-3">
+                            <label for="uf" class="form-label">UF</label>
+                            <input type="text" class="form-control" id="uf" placeholder="UF" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="mb-3">
+                            <label for="cidade" class="form-label">Cidade</label>
+                            <input type="text" class="form-control" id="cidade" placeholder="Cidade" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="mb-3">
+                            <label for="bairro" class="form-label">Bairro</label>
+                            <input type="text" class="form-control" id="bairro" placeholder="Bairro" />
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-12">
+                        <div class="mb-3">
+                            <label for="logradouro" class="form-label">Logradouro</label>
+                            <input type="text" class="form-control" id="logradouro" placeholder="Logradouro" />
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="mb-3">
+                            <label for="numero" class="form-label">Número</label>
+                            <input type="text" class="form-control" id="numero" placeholder="Número" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="complemento" class="form-label">Complemento</label>
+                            <input type="text" class="form-control" id="complemento" placeholder="Complemento" />
+                        </div>
+                    </div>
+                </section>
+                <div class="col-md-3 col-12">
+                    <button type="submit" class="btn btn-primary mt-5">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <br>
+    <hr />
+    <br><br>
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p>Copyright 2023 - Geiziane Bezerra</p>
+                    <p>Telefone: (61) 96853298</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

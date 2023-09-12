@@ -1,0 +1,37 @@
+header {
+    background-color: #0202ae;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(147, 110, 110);
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: rgb(205, 103, 103);
+    font-size: 16px;
+    padding: 10px 0;
+}
+.menu-borda {
+    border-bottom: 1px solid rgb(138, 121, 211);
+}
+
+.sombra-carrosel {
+    box-shadow: 0px 10px 50px #000;
+}
